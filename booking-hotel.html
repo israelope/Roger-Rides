@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roger H&C Bookings</title>
+
+    <link rel="icon" href="img/Group 92.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+
+
+  <body>
+    <header>
+      <div class="navbar">
+
+        <div class="logo">
+          <a href="index.html#home"><img src="img/Group 92.png" alt="roger rides Logo"></a>
+          <span>Roger H&C<br>Bookings</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="hotel.html">Hotels</a>
+          <a href="ride.html">Fleets</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="login">
+          <i class="fas fa-user-circle"></i>
+          <a href="#"></a>
+          <button id="menu-toggle" type="button" aria-label="Toggle Menu" class="nav-button">
+            <svg id="menu-icon" class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"
+              stroke-linecap="round">
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="close-icon" class="toggle-icon hidden" viewBox="0 0 24 24" fill="none" stroke="black"
+              stroke-width="2" stroke-linecap="round">
+              <path d="M6 6l12 12M6 18L18 6" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+
+      <div id="mobile-modal" class="mobile-modal">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="hotel.html">Hotels</a>
+        <a href="ride.html">Fleets</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </header>
+
+    <section class="booking">
+      <div
+        class="booking-container"style="font-family:'Libre Baskerville', serif;
+          background-color: #6B4C2E;
+          color: white;">
+          <a href="index.html#packages">&lt; Back</a>
+          <h1>
+            Book your room
+          </h1>
+          <p>
+            Check out our availability and book the date and time that works for you
+          </p>
+          
+          
+        
+          <label>LODGE DATE
+            <input 
+            type="date" 
+            id="booking-date" 
+            name="booking-date" 
+            style="padding: 10px; margin-bottom: 15px;
+            font-size: 16px;
+            background-color: #5a3f28;
+            color: white;
+            border: none;
+            border-radius: 4px;">
+          </label>
+          
+          <div style="font-size: 12px; margin-bottom: 10px;">
+          NUMBER OF DAYS YOU ARE STAYING WITH US.
+          </div>
+
+          <div class="time-slots">
+            <div class="time-slot">1 Day</div>
+            <div class="time-slot">3 Days</div>
+            <div class="time-slot">5 Days</div>
+            <div class="time-slot">1 Week</div>
+            <div class="time-slot">2 Weeks</div>
+            <div class="time-slot">3 Weeks</div>
+            <div class="time-slot">4 Weeks</div>
+            <div class="time-slot">2 Months</div>
+            <div class="time-slot">3 Months</div>
+            <div class="time-slot">4 Months</div>
+          </div>
+
+          <div class="show-more">Show all sessions</div>
+
+          <div class="service-details">
+            <h2>
+              Service Details
+            </h2>
+            <div id="package-title"></div>
+            <div class="price" id="package-price"></div>
+            <label>Hotel
+              <select id="vehicle-options">
+                <option>Select</option>
+              </select>
+            </label>
+
+            <label>Room Type
+              <select id="duration-options">
+                <option>Select</option>
+              </select>
+            </label>
+          </div>
+          <button class="book-but">Book Now</button>
+
+          <div class="payment">
+            <div class="payment-content">
+              <h1 class="payTitle">Personal Information</h1>
+              <span class="close">X</span>
+              <label>Name and Surname</label>
+              <input type="text" placeholder="+123 456 789" class="payInput">
+              <label>Address</label>
+              <input type="text" placeholder="Address..." class="payInput">
+              <h1 class="payTitle">Card Information</h1>
+              <div class="cardIcons">
+                <img src="img/visa.png" alt="" width="40px" class="cardIcon">
+                <img src="img/master.png" alt="" width="40px" class="cardIcon">
+              </div>
+              
+              <input type="password" class="payInput" placeholder="Card Number">
+              <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+                <button class="payButton"><a href="index.html">Pay now!</a></button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        
+        <div class="footer-column">
+          <h4>Address</h4>
+          <p>Agbowo UI,Ibadan,Oyo State.</p>
+
+          <h4>Contact</h4>
+          <p>Local: (+234) 901 593 5141</p>
+          <p>request@rogerrides.com</p>
+        </div>
+
+      
+        <div class="footer-column">
+          <h4>Opening Hours</h4>
+          <p>Mon - Fri: 8:00am - 6:00pm</p>
+          <p>Saturday: By Appointment Only</p>
+          <p>Sunday: Closed</p>
+          <p class="footer-note">built by: <a href="https://anointed1.netlify.app" >GROUP 12 🖤🖤🖤</a></p>
+        </div>
+
+      
+        <div class="footer-column">
+          <h4>Our Policies</h4>
+          <a href="#">Refunds Privacy</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#"><strong>Terms & Conditions</strong></a>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  
+  // Navigation Modal functionality
+  // Open mobile navigation modal
+  const toggleBtn = document.getElementById("menu-toggle");
+  const menuIcon = document.getElementById("menu-icon");
+  const closeIcon = document.getElementById("close-icon");
+  const modal = document.getElementById("mobile-modal");
+  
+  toggleBtn.addEventListener("click", () => {
+    modal.classList.toggle("show");
+    menuIcon.classList.toggle("hidden");
+    closeIcon.classList.toggle("hidden");
+  });
+  
+  // Close modal navigation modalwhen a link is clicked
+  modal.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      modal.classList.remove("show");
+      menuIcon.classList.remove("hidden");
+      closeIcon.classList.add("hidden");
+    });
+  });
+  
+    // Initialize EmailJS
+    emailjs.init("hWqBKEuyx-R7CYlvA");
+  
+    const form = document.getElementById("contact-form");
+  
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+  
+        // Send to owner (you)
+        emailjs.sendForm("service_gu7opz7", "template_6ywkmqu", this)
+          .then(function () {
+            console.log("Message sent to site owner.");
+          }, function (error) {
+            console.error("Failed to send to owner:", error);
+          });
+  
+        // Send auto-reply to user
+        emailjs.sendForm("service_gu7opz7", "template_7ragj4j", this)
+          .then(function () {
+            alert("Request submitted successfully. Please check your email.");
+            form.reset();
+          }, function (error) {
+            alert("Auto-reply failed. Please try again.");
+            console.error("Auto-reply error:", error);
+          });
+      });
+    }
+  });
+  
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    
+    // TIME SLOT HIGHLIGHT
+    document.querySelectorAll('.time-slot').forEach(slot => {
+      slot.addEventListener('click', () => {
+        document.querySelectorAll('.time-slot').forEach(s => s.classList.remove('active'));
+        slot.classList.add('active');
+      });
+    });
+  
+    // DYNAMIC PACKAGE DETAILS FROM URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const title = urlParams.get("title");
+    const price = urlParams.get("price");
+    const vehicles = urlParams.get("vehicles")?.split(",") || [];
+    const durations = urlParams.get("duration")?.split(",") || [];
+  
+    if (title) document.getElementById("package-title").innerText = title;
+    if (price) document.getElementById("package-price").innerText = `₦${Number(price).toLocaleString()}/night`;
+  
+  
+    const vehicleSelect = document.getElementById("vehicle-options");
+    vehicles.forEach(vehicle => {
+      const option = document.createElement("option");
+      option.value = option.text = vehicle.trim();
+      vehicleSelect.appendChild(option);
+    });
+  
+    const durationSelect = document.getElementById("duration-options");
+    durations.forEach(duration => {
+      const option = document.createElement("option");
+      option.value = option.text = duration.trim();
+      durationSelect.appendChild(option);
+    });
+  });
+  
+  //card details page
+  const ProductButton = document.querySelector(".book-but");
+  const payment = document.querySelector(".payment");
+  const close = document.querySelector(".close");
+  
+  ProductButton.addEventListener("click", ()=>{
+      payment.style.display="flex"
+  });
+  
+  close.addEventListener("click", ()=>{
+      payment.style.display="none"
+  });
+    </script>
+    
+  </body>
+</html>

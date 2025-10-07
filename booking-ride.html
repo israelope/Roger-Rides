@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roger H&C Bookings</title>
+
+    <link rel="icon" href="img/Group 92.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+
+
+  <body>
+    <header>
+      <div class="navbar">
+
+        <div class="logo">
+          <a href="index.html#home"><img src="img/Group 92.png" alt="roger rides Logo"></a>
+          <span>Roger H&C<br>Bookings</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="hotel.html">Hotels</a>
+          <a href="ride.html">Fleets</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="login">
+          <i class="fas fa-user-circle"></i>
+          <a href="#"></a>
+          <button id="menu-toggle" type="button" aria-label="Toggle Menu" class="nav-button">
+            <svg id="menu-icon" class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"
+              stroke-linecap="round">
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="close-icon" class="toggle-icon hidden" viewBox="0 0 24 24" fill="none" stroke="black"
+              stroke-width="2" stroke-linecap="round">
+              <path d="M6 6l12 12M6 18L18 6" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+
+      <div id="mobile-modal" class="mobile-modal">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="hotel.html">Hotels</a>
+        <a href="ride.html">Fleets</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </header>
+
+    <section class="booking">
+      <div
+        class="booking-container"style="font-family:'Libre Baskerville', serif;
+          background-color: #6B4C2E;
+          color: white;">
+          <a href="index.html#packages">&lt; Back</a>
+          <h1>
+            Schedule your Ride
+          </h1>
+          <p>
+            Check out our availability and book the date and time that works for you
+          </p>
+          
+          <label>Your Location:
+            <select>
+              <option value="">Choose a State</option>
+              <option value="abia">Abia</option>
+              <option value="adamawa">Adamawa</option>
+              <option value="akwa-ibom">Akwa Ibom</option>
+              <option value="anambra">Anambra</option>
+              <option value="bauchi">Bauchi</option>
+              <option value="bayelsa">Bayelsa</option>
+              <option value="benue">Benue</option>
+              <option value="borno">Borno</option>
+              <option value="cross-river">Cross River</option>
+              <option value="delta">Delta</option>
+              <option value="ebonyi">Ebonyi</option>
+              <option value="edo">Edo</option>
+              <option value="ekiti">Ekiti</option>
+              <option value="enugu">Enugu</option>
+              <option value="gombe">Gombe</option>
+              <option value="imo">Imo</option>
+              <option value="jigawa">Jigawa</option>
+              <option value="kaduna">Kaduna</option>
+              <option value="kano">Kano</option>
+              <option value="katsina">Katsina</option>
+              <option value="kebbi">Kebbi</option>
+              <option value="kogi">Kogi</option>
+              <option value="kwara">Kwara</option>
+              <option value="lagos">Lagos</option>
+              <option value="nasarawa">Nasarawa</option>
+              <option value="niger">Niger</option>
+              <option value="ogun">Ogun</option>
+              <option value="ondo">Ondo</option>
+              <option value="osun">Osun</option>
+              <option value="oyo">Oyo</option>
+              <option value="plateau">Plateau</option>
+              <option value="rivers">Rivers</option>
+              <option value="sokoto">Sokoto</option>
+              <option value="taraba">Taraba</option>
+              <option value="yobe">Yobe</option>
+              <option value="zamfara">Zamfara</option>
+              <option value="fct">FCT - Abuja</option>
+            </select>
+          </label>
+        
+          <label>Choose Date
+            <input 
+            type="date" 
+            id="booking-date" 
+            name="booking-date" 
+            style="padding: 10px; margin-bottom: 15px;
+            font-size: 16px;
+            background-color: #5a3f28;
+            color: white;
+            border: none;
+            border-radius: 4px;">
+          </label>
+          
+          <div style="font-size: 12px; margin-bottom: 10px;">
+          Only some sessions are still available for booking. Bookings close 1 hour before the session starts.
+          </div>
+
+          <div class="time-slots">
+            <div class="time-slot">9:00 am</div>
+            <div class="time-slot">9:30 am</div>
+            <div class="time-slot">10:00 am</div>
+            <div class="time-slot">10:30 am</div>
+            <div class="time-slot">11:00 am</div>
+            <div class="time-slot">11:30 am</div>
+            <div class="time-slot">12:00 pm</div>
+            <div class="time-slot">12:30 pm</div>
+            <div class="time-slot">1:00 pm</div>
+            <div class="time-slot">1:30 pm</div>
+          </div>
+
+          <div class="show-more">Show all sessions</div>
+
+          <div class="service-details">
+            <h2>
+              Service Details
+            </h2>
+            <div id="package-title"></div>
+            <div class="price" id="package-price"></div>
+            <label>Vehicle Type
+              <select id="vehicle-options">
+                <option>Select</option>
+              </select>
+            </label>
+
+            <label>Hours
+              <select id="duration-options">
+                <option>Select</option>
+              </select>
+            </label>
+          </div>
+          <button class="book-but">Book Now</button>
+
+          <div class="payment">
+            <div class="payment-content">
+              <h1 class="payTitle">Personal Information</h1>
+              <span class="close">X</span>
+              <label>Name and Surname</label>
+              <input type="text" placeholder="+123 456 789" class="payInput">
+              <label>Address</label>
+              <input type="text" placeholder="Address..." class="payInput">
+              <h1 class="payTitle">Card Information</h1>
+              <div class="cardIcons">
+                <img src="img/visa.png" alt="" width="40px" class="cardIcon">
+                <img src="img/master.png" alt="" width="40px" class="cardIcon">
+              </div>
+              
+              <input type="password" class="payInput" placeholder="Card Number">
+              <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+                <button class="payButton"><a href="index.html">Pay now!</a></button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        
+        <div class="footer-column">
+          <h4>Address</h4>
+          <p>Agbowo UI,Ibadan,Oyo State.</p>
+
+          <h4>Contact</h4>
+          <p>Local: (+234) 901 593 5141</p>
+          <p>request@rogerrides.com</p>
+        </div>
+
+      
+        <div class="footer-column">
+          <h4>Opening Hours</h4>
+          <p>Mon - Fri: 8:00am - 6:00pm</p>
+          <p>Saturday: By Appointment Only</p>
+          <p>Sunday: Closed</p>
+          <p class="footer-note">built by: <a href="https://anointed1.netlify.app" >GROUP 12 🖤🖤🖤</a></p>
+        </div>
+
+      
+        <div class="footer-column">
+          <h4>Our Policies</h4>
+          <a href="#">Refunds Privacy</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#"><strong>Terms & Conditions</strong></a>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
