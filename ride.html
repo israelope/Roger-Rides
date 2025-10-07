@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roger H&C Bookings</title>
+
+    <link rel="icon" href="img/Group 92.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+
+
+  <body>
+    <header>
+      <div class="navbar">
+
+        <div class="logo">
+          <a href="index.html#home"><img src="img/Group 92.png" alt="roger rides Logo"></a>
+          <span>Roger H&C<br>Bookings</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="hotel.html">Hotels</a>
+          <a href="ride.html">Fleets</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="login">
+          <i class="fas fa-user-circle"></i>
+          <a href="#"></a>
+          <button id="menu-toggle" type="button" aria-label="Toggle Menu" class="nav-button">
+            <svg id="menu-icon" class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"
+              stroke-linecap="round">
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="close-icon" class="toggle-icon hidden" viewBox="0 0 24 24" fill="none" stroke="black"
+              stroke-width="2" stroke-linecap="round">
+              <path d="M6 6l12 12M6 18L18 6" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+
+      <div id="mobile-modal" class="mobile-modal">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="hotel.html">Hotels</a>
+        <a href="ride.html">Fleets</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>
+          OUR AMAZING FLEETS
+        </h1>
+    </section>
+
+
+    <section class="ride-packages" id="suv" style="background-color: white; color: #4d2100;">
+      <h2 style="color: #4d2100;">
+        AVAILABLE SUV'S
+      </h2>
+      <p style="color: black;">
+        Powerful, stylish and road-ready, perfect for official convoys, security escorts and VIP movements.
+      </p>
+      
+      <div class="card-grid">
+        <div class="ride-card" style="background-color: white;">
+          <img src="img/suv1.webp" alt="Executive Convoy Image" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              G WAGON
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+SUVs&price=10000&vehicles=G+WAGON&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month" style="color: black;" style="color: black;">
+                Book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card"  style="background-color: white;">
+          <img src="img/suv2.webp" alt="Event Royalty Image" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              LAND CRUISER PRADO
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+SUVs&price=20000&vehicles=LAND+CRUISER+PRADO&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month" style="color: black;">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card"  style="background-color: white;">
+          <img src="img/suv3.webp" alt=" Image 3" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              TOYOTA HIGHLANDER
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+SUVs&price=40000&vehicles=TOYOTA+HIGHLANDER&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month" style="color: black;">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card"  style="background-color: white;">
+          <img src="img/suv4.webp" alt=" Image 4" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              RANGE ROVER
+            </h3>
+            <button class="btn-yello" >
+              <a href="booking-ride.html?title=AVAILABLE+SUVs&price=50000&vehicles=RANGE+ROVER&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month"  style="color: black;">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+
+    <section class="ride-packages" id="luxury" style="background-color: #4d2100;">
+      <h2>
+          AVAILABLE LUXURY VEHICLE
+      </h2>
+      <p>
+        Make good entrances with high-end luxury cars built for elegance, speed and unforgettable experiences.
+      </p>
+      
+      <div class="card-grid">
+        <div class="ride-card">
+          <img src="img/luxury1.webp" alt="Executive Convoy Image" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              FERARRI SPIDER
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+LUXURY+VEHICLE&price=10000&vehicles=FERARRI+SPIDER&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card">
+          <img src="img/luxury2.webp" alt="Event Royalty Image" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              ROLLS-ROYCE CULLICAN
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+LUXURY+VEHICLE&price=20000&vehicles=ROLLS-ROYCE+CULLICAN&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card">
+          <img src="img/luxury3.webp" alt=" Image 3" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              LAMBORGHINI URUS
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+LUXURY+VEHICLE&price=40000&vehicles=LAMBORGHINI+URUS&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card">
+          <img src="img/luxury5.webp" alt=" Image 4" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              MERCEDES BENZ S-CLASS
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+LUXURY+VEHICLE&price=50000&vehicles=MERCEDES+BENZ+S-CLASS&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+  
+        
+    </section>
+      
+
+    <section class="ride-packages" id="bus" style="background-color: white; color: #4d2100;">
+      <h2 style="color: #4d2100;">
+        TOUR VANS & BUSES
+      </h2>
+      <p style="color: black;">
+        Spacious and comfortable vehicles designed for group travel, tours, events and airport shuttles.
+      </p>
+      
+      <div class="card-grid">
+        <div class="ride-card" style="background-color: white;">
+          <img src="img/bus1.webp" alt="Executive Convoy Image" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              MERCEDES BENZ VAN
+            </h3>
+            
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=TOUR+VANS+and+BUSES&price=10000&vehicles=MERCEDES+BENZ+VAN&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month" style="color: black;">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card"  style="background-color: white;">
+          <img src="img/bus2.webp" alt="Event Royalty Image" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              TOYOTA HIACE
+            </h3>
+            
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=TOUR+VANS+and+BUSES&price=20000&vehicles=TOYOTA+HIACE&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month" style="color: black;">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card"  style="background-color: white;">
+          <img src="img/bus3.webp" alt=" Image 3" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              COASTER BUS
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=TOUR+VANS+and+BUSES&price=40000&vehicles=COASTER+BUS&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month" style="color: black;">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card"  style="background-color: white;">
+          <img src="img/bus4.webp" alt=" Image 4" class="responsive-img">
+          <div class="ride-content">
+            <h3 style="color: black;">
+              LUXURY BUS
+            </h3>
+            <button class="btn-yello" >
+              <a href="booking-ride.html?title=TOUR+VANS+and+BUSES&price=50000&vehicles=LUXURY+BUS&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month"  style="color: black;">
+                Book
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+      
+
+    <section class="ride-packages" id="sedan" style="background-color: #4d2100;">
+      <h2>
+          AVAILABLE EXECUTIVE SEDANS
+      </h2>
+      <p>
+        Sleek and professional rides ideal for corporate trips, daily movement and smooth urban drives.
+      </p>
+      
+      <div class="card-grid">
+        <div class="ride-card">
+          <img src="img/sedan1.jpg" alt="Executive Convoy Image" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              TOYOTA CAMRY
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+EXECUTIVE+SEDANS&price=10000&vehicles=TOYOTA+CAMRY&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                Book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card">
+          <img src="img/sedan2.jpg" alt="Event Royalty Image" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              TOYOTA COROLLA
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+EXECUTIVE+SEDANS&price=10000&vehicles=TOYOTA+COROLLA&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card">
+          <img src="img/sedan3.jpg" alt=" Image 3" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              LEXUS ES & RX
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+EXECUTIVE+SEDANS&price=10000&vehicles=LEXUS+ES+and+RX&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                book
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="ride-card">
+          <img src="img/sedan4.jpg" alt=" Image 4" class="responsive-img">
+          <div class="ride-content">
+            <h3>
+              HYUNDAI
+            </h3>
+            <button class="btn-yello">
+              <a href="booking-ride.html?title=AVAILABLE+EXECUTIVE+SEDANS&price=10000&vehicles=HYUNDAI&duration=1-5+hours,6-10+hours,1+day,1+week,1+Month">
+                Book
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+      
+    
+
+    <section class="form-section" id="contact" style="background-color: white;">
+      <div class="form-container">
+        <h2>Get In Touch With Us</h2>
+        <form id="contact-form" name="contact-form">
+          <div>
+            <label for="full-name">Full name</label>
+            <input type="text" id="full-name" name="full-name" required>
+          </div>
+
+          <div>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div>
+            <label for="pickup">Pickup station</label>
+            <input type="text" id="pickup" name="pickup" required>
+          </div>
+
+          <div>
+            <label for="destination">Destination/ Route</label>
+            <input type="text" id="destination" name="destination" required>
+          </div>
+
+          <div>
+            <label for="vehicle">Preferred vehicle(s)</label>
+            <input type="text" id="vehicle" name="vehicle" required>
+          </div>
+
+          <div>
+            <label for="booking-date">Date of Booking</label>
+            <input type="date" id="booking-date" name="booking-date" required>
+          </div>
+
+          <div>
+            <label for="duration">Duration of use</label>
+            <input type="text" id="duration" name="duration" required>
+          </div>
+
+          <div>
+            <label for="notes">Additional Requests or Special Notes</label>
+            <textarea id="notes" name="notes"></textarea>
+          </div>
+
+          <div class="note">
+            After submission, a representative will contact the user via phone or email to finalize the quote and confirm availability
+          </div>
+
+          <div class="submit-button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        
+        <div class="footer-column">
+          <h4>Address</h4>
+          <p>Agbowo UI,Ibadan,Oyo State.</p>
+
+          <h4>Contact</h4>
+          <p>Local: (+234) 901 593 5141</p>
+          <p>request@rogerrides.com</p>
+        </div>
+
+      
+        <div class="footer-column">
+          <h4>Opening Hours</h4>
+          <p>Mon - Fri: 8:00am - 6:00pm</p>
+          <p>Saturday: By Appointment Only</p>
+          <p>Sunday: Closed</p>
+          <p class="footer-note">built by: <a href="https://anointed1.netlify.app" >GROUP 12 🖤🖤🖤</a></p>
+        </div>
+
+      
+        <div class="footer-column">
+          <h4>Our Policies</h4>
+          <a href="#">Refunds Privacy</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#"><strong>Terms & Conditions</strong></a>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  </body>
+</html>
+
